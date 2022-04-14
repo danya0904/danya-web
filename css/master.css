@@ -1,0 +1,601 @@
+:root{
+	--montserrat: 'Montserrat', sans-serif;
+	--openSans: 'Open Sans', sans-serif;
+	--ubuntu: 'Ubuntu', sans-serif;
+	--black: #000;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #201b2d;
+	font-size: 20px;
+	padding: 0 auto;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	background: #f1f1f1;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 2em;
+}
+
+p{
+	font-size: 25px;
+	font-style: serif;
+	font-weight: 500;
+}
+
+a{
+	text-decoration: none;
+	transition: ease 0.8s;
+	color: #0000EE;
+}
+
+a:hover{
+	color: #f77400;
+}
+
+button{
+	border-style: none;
+	background: #f2892b;
+	width: 200px;
+	height: 65px;
+	font-size: 25px;
+	text-align: center;
+	color: #fff;
+	border-radius: 7px;
+	transition: all ease 0.8s;
+}
+
+button:hover{
+	background: #f77400;
+	transform: scale(1.1);
+}
+
+section{
+	background: #f1f1f1;
+	margin: 0 auto;
+	display: block;
+}
+
+.container{
+	width: 1250px;
+	margin: 0 auto; 
+}
+
+/*header*/
+
+.header{
+	background: -webkit-linear-gradient(135deg, rgb(56, 55, 118), rgb(16, 15, 62));
+	background: -moz-linear-gradient(135deg, rgb(56, 55, 118), rgb(16, 15, 62));
+	background: linear-gradient(135deg, rgb(56, 55, 118), rgb(16, 15, 62));
+	color: #fff;
+}
+
+.wrapper{
+	justify-content: center; 
+	display: flex;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: auto;
+}
+
+.logo{
+	margin-top: 75px;
+}
+
+.h__wrp{
+	margin-top: 50px;
+}
+
+.txt{
+	margin-top: 1px;
+}
+
+.txt > span{
+	color: #31FF6B;
+}
+
+.btn{
+	margin-top: 50px;
+}
+
+.isom{
+	margin-top: 85px;
+	margin-left: 110px;
+}
+
+/*about__me*/
+
+.h__wrp__2{
+	margin-top: 200px;
+}
+
+.p__txt{
+	margin-top: 25px;
+	font-size: 25px;
+}
+
+.me{
+	margin-top: 50px;
+}
+
+.h1__1 > span{
+	color: #f2892b
+}
+
+/*skill*/
+
+.skill{
+	display: block;
+	margin: 0 auto;
+
+}
+
+.h__card, .p__card, .img__card{
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+
+.h__card{
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 15px;
+}
+
+.p__card{
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.wrapper__skill{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+
+/*portfolio*/
+
+.card__img, .card__h{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.card__h{
+	margin-top: 15px;
+}
+
+.card__img{
+	width: 380px;
+	height: 280px;
+}
+
+.portfolio__card{
+	transition: ease 0.8s;
+}
+
+.portfolio__card:hover{
+	transform: scale(1.1);
+}
+
+.portfolio{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.wrp__portfolio{
+	display: flex;
+	justify-content: ceter;
+	width: auto;
+	margin-top: 30px;
+
+}
+
+/*form*/
+
+.form{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.wrapper__form{
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+.wrp__txt__form{
+	width: 483px;
+}
+
+.p__form{
+	font-weight: 500;
+	margin-top: 15px;
+}
+
+.input{
+	display: block;
+	margin: 0 auto;
+}
+
+.one, .two{
+	width: 500px;
+	height: 75px;
+	border: 2px solid #000;
+	margin-top: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+	border-radius: 6px;
+}
+
+.tree{
+	width: 500px;
+	height: 130px;
+	border: 2px solid #000;
+	margin-top: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+	border-radius: 6px;
+}
+
+.submit{
+	display: block;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.h1__3{
+	margin-top: 200px;
+}
+
+input{
+	padding-left: 15px;
+}
+
+/*footer*/
+
+.p__foot{
+	text-align: center;
+	display: block;
+}
+
+.footer{
+	background: -webkit-linear-gradient(135deg, rgb(56, 55, 118), rgb(16, 15, 62));
+	background: -moz-linear-gradient(135deg, rgb(56, 55, 118), rgb(16, 15, 62));
+	background: linear-gradient(135deg, rgb(56, 55, 118), rgb(16, 15, 62));
+	color: #fff;
+	flex: 0 0 auto;
+}
+
+/*send*/
+
+.send__h1{
+	margin-top: 500px;
+}
+
+.btn__send{
+	margin-top: 30px;
+}
+
+/*responsive*/
+
+@media screen and (max-width: 1200px){
+	.container{
+		width: 100%;
+		padding-right: 35px;
+		padding-left: 35px;
+	}
+
+	.wrp__portfolio{
+		justify-content: center;
+		display: flex;
+		width: 100%;
+	}
+
+	.card__img{
+		width: 250px;
+		height: 175px;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.container{
+		width: 960px;
+	}
+
+	.isom{
+		width: 300px;
+		height: 250px;
+		margin-top: 150px
+	}
+}
+
+@media screen and (max-width: 768px){
+	.container{
+		width: 100%;
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+
+	h1, h2{
+		font-size: 1.5em;
+	}
+
+	.h__card{
+		font-size: 1em;
+	}
+
+	p{
+		font-size: 15px;
+	}
+
+	.p__card{
+		font-size: 15px;
+	}
+
+	.logo{
+		width: 52px;
+		height: 52px
+	}
+
+	button{
+		width: 190px;
+		height: 50px
+	}
+
+	.me{
+		width: 250px;
+		height: 400px
+	}
+
+	.h1__1{
+		margin-top: -100px
+	}
+
+	.card__h{
+		font-size: 1em;
+	}
+
+	.input{
+		width: 400px;
+		height: 75px
+	}
+
+	.wrapper__form{
+		justify-content: space-between
+	}
+
+	.p__form{
+		font-size: 20px;
+	}
+
+	.img__card{
+		width: 75px;
+		height: 75px
+	}
+
+}
+
+@media screen and (max-width: 576px){
+	.container{
+		width: 100%;
+		margin: 0 auto;
+		padding-right: 30px;
+		padding-left: 30px
+	}
+
+	.txt{
+		font-size: 20px;
+	}
+
+	.card__img{
+		width: 200px;
+		height: 100px
+	}
+
+	.card__h3{
+		font-size: 20px;
+	}
+
+	.input{
+		width: 265px;
+		height: 60px
+	}
+
+	.form, .portfolio, .skill{
+		padding-top: 25px;
+		padding-bottom: 25px
+	}
+
+	.wrp__txt__form{
+		margin-top: -100px
+	}
+
+	.img__card{
+		width: 75px;
+		height: 50px;
+	}
+
+	.h__card{
+		font-size: 20px;
+	}
+
+	.p__card{
+		font-size: 15px;
+	}
+
+	span > .img__card{
+		height: 60px;
+		width: 40px
+	}
+
+	.card__img{
+		width: 185px;
+		height: 80px
+	}
+
+	.isom{
+		width: 200px;
+		height: 150px
+	}
+}
+
+@media screen and (max-width: 480px){
+	.container{
+		width: 100%;
+		padding-right: 45px;
+		padding-left: 45px;
+	}
+
+	.h__card{
+		font-size: 17px;
+	}
+
+	.p__card{
+		font-size: 14px;
+	}
+
+	.wrp__portfolio{
+		width: 100%;
+		display: flex;
+  flex-direction: column;
+  margin-top: 30px
+	}
+
+	.wrapper__protfolio{
+		width: 100%;
+		display: flex;
+  flex-direction: column;	
+ 	}
+
+	.portfolio__card{
+		align-items: center;
+		display: block;
+		margin-top: 20px
+	}
+
+	.wrapper__skill{
+		width: 100%;
+		display: flex;
+  		flex-direction: column;
+	}
+
+	.skill__card{
+		width: 100%;
+		display: flex;
+  		flex-direction: column;
+  		margin-top: 30px
+	}
+
+	.wrapper__form{
+		width: 100%;
+		display: flex;
+  		flex-direction: column;
+	}
+
+	.p__form{
+		display: none
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	.header{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.h1__3{
+		width: 300px;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.isom{
+		display: none
+	}
+
+	.txt{
+		margin-top: 15px;
+	}
+
+	.wrapper{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.btn{
+		display: block;
+		margin: 0 auto 
+	}
+
+	.h__wrp{
+		padding-bottom: 15px
+	}
+
+	.logo{
+		margin: 0 auto;
+		display: block;
+	}
+
+	.h1__3{
+		
+	}
+
+	.me{
+		margin: 0 auto
+	}
+
+	.p__txt{
+		text-align: center
+	}
+
+	.form > input{
+		margin-top: 25px
+	}
+
+}
+
+@media screen and (max-width: 320px){
+	.container{
+		width: 100%;
+		padding-right: 45px;
+		padding-left: 45px;
+	}
+
+	h1{
+		font-size: 16px;
+	}
+
+	p{
+		font-size: 14px;
+	}
+
+	.h1__1{
+		font-size: 25px;
+	}
+
+	.h1__3{
+		display: none
+	}
+}
